@@ -3,7 +3,7 @@
 import numpy as np
 import pennylane as qml
 
-@qml.qnode(qml.device('lightning.qubit', wires=3))
+@qml.qnode(qml.device('default.qubit', wires=3))
 def circuit():
 	qml.Hadamard(wires = 0)
 	qml.CNOT(wires=[0, 1])
