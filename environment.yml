@@ -1,0 +1,6 @@
+dependencies:
+  - cirq
+  - pennylane
+  - python
+  - qiskit
+  - qutip
